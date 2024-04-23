@@ -8,6 +8,7 @@ const App = () => {
     <>
       <ToastContainer />
       <Dashboard />
+      <h1></h1>
     </>
   )
 }
