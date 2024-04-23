@@ -6,7 +6,7 @@ import PieChart from './PieChart.js'
 import SearchBar from './SearchBar.js'
 import Count from './Count.js'
 
-import PropagateLoader from 'react-spinners/PropagateLoader'
+import ClimbingBoxLoader from 'react-spinners/ClimbingBoxLoader'
 
 
 
@@ -79,10 +79,8 @@ const Dashboard = () => {
 
             {loading ? (
                 <div className="loading">
-                    <PropagateLoader
-                        color="#ff6300"
-                        loading
-                    />
+                    <ClimbingBoxLoader color="#000000" />
+    
                 </div>
 
             ) : (
